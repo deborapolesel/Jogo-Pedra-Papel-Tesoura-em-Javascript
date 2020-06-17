@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --title1-color: rgb(34, 16, 43);
+    --title2-color: rgb(253, 231, 106);
+}
+
+body {
+    background-color: var(--title1-color);
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+
+header {
+    background: var(--title2-color);
+    padding: 1em;
+}
+
+header h1{
+    color: var(--title1-color);
+    text-align: center;
+    font-size: 3em;
+}
+
+.pontuacao {
+    border: solid white;
+    width: 10em;
+    font-size: 1.5em;
+    margin: 1em auto;
+    border-radius: 4px;
+    padding: 0.7em 1em;
+    position: relative;
+    text-align: center;
+}
+.pontuacao span {
+    font-size: 2em;
+}
+.pontuacao .jogador {
+    background: rgb(59, 75, 109);
+    padding: 0.2em;
+    font-size: 0.8em;
+}
+
+.pontuacao #placaUsuário {
+    position: absolute;
+    top: 1em;
+    left: -2em;
+}
+
+.pontuacao #placaComputador{
+    position: absolute;
+    top: 1em;
+    right: -2.8em;
+}
+
+.resultado {
+    font-size: 2em;
+}
+
+.resultado p{
+    text-align: center;
+}
+.opções {
+    text-align: center;
+}
+.opção{
+    display: inline-block;
+    margin: 1em;
+} 
+
+.opções img{
+    background: var(--title2-color);
+    height: 7em;
+    width: 7em;
+    border-radius: 100px;
+    border: 4px solid white;
+}
+
+.opções img:hover {
+    background: whitesmoke;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#mensagemJogar {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 1em;
+}
