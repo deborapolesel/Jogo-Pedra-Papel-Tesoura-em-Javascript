@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo em Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Pedra Papel Tesoura</h1>
+    </header>
+
+    <div class="pontuacao">
+        <div id="placaUsuário" class="jogador">Usuário</div>
+        <div id="placaComputador" class="jogador">Computador</div>
+        <span id="pontosUsuário">0</span>:<span id="pontosComputador">0</span>
+    </div>
+
+    <div class="resultado">
+        <p>Escolha pedra, papel ou tesoura. Jogue!</p>
+    </div>
+
+    <div class="opções">
+        <div class="opção">
+            <img id="opçãoPedra" src="pedra.png" alt="opção Pedra">
+        </div>
+        <div class="opção">
+            <img id="opçãoPapel" src="papel.png" alt="opção Papel">
+        </div>
+        <div class="opção">
+            <img id="opçãoTesoura" src="tesoura.png" alt="opção Tesoura">
+        </div>
+    </div>
+
+    <p id="mensagemJogar">Escolha sua opção!</p>
+    <script src="script.js"></script>
+</body>
+</html>
