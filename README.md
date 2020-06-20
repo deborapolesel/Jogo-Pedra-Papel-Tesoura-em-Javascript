@@ -12,7 +12,8 @@ Débora Polesel
 
 ## Créditos
 * Imagens obtidas pelo site Pixabay
-* FreeCodeCamp.org
+* Aulas da FreeCodeCamp.org no Youtube
+* Google Fonts 
 
 
 
